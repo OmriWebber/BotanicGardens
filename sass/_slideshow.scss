@@ -1,0 +1,16 @@
+.slideshow {
+	width: 100%;
+	background-color: $white;
+	h2 {
+		width: 100%;
+		margin: 0;
+		text-align: center;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	img {
+		width: 100%;
+		height: auto;
+	}
+}

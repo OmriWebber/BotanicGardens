@@ -1,0 +1,35 @@
+footer {
+	width: 100%;
+	position: relative;
+	float: left;
+	background-color: $primary-color;
+	margin-top: -4px;
+
+	.container {
+		margin: 0 auto;
+		width: 80%;
+		text-align: center;
+
+		p {
+			color: white;
+		}
+	}
+
+	ul li {
+		display: inline-block;
+
+		a {
+			color: white;
+			text-decoration: none;
+			padding: 10px;
+			border-radius: 6px;
+			transition: all 1s;
+			-moz-transition: all 1s;
+			-webkit-transition: all 1s;
+		}
+
+		a:hover {
+			background-color: darken($primary-color, 10%);
+		}
+	}
+}
