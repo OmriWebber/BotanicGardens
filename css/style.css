@@ -47,7 +47,8 @@ nav {
   display: none; }
   .navbar-collpase ul {
     float: right;
-    margin: 0; }
+    margin: 0;
+    margin-top: -8px; }
     .navbar-collpase ul li {
       display: inline-block;
       padding: 20px; }
